@@ -1,0 +1,63 @@
+package TEME4;
+
+import java.util.Scanner;
+
+public class EX4T4 {
+    public static void main (String[] args) {
+//        6. Scrie un program care calculeaza factorialul unui numar n, n fiind citit de la tastatura
+//        De exemplu, factorialul numarului 3 este 1 * 2 * 3 = 6
+//        Factorialul numarului 4 este 1 * 2 * 3 * 4 = 24
+//        Factorialul numarului 5 este 1 * 2 * 3 * 4 * 5 = 120
+//        Practic trebuie inmultite toate numerele consecutive pana la numarul citit de la tastatura.
+        Scanner scanner = new Scanner(System.in);
+        int n = 4;
+        // 1*1 = i*i
+        //1*2 = i * (1+1) = 2
+        //1*2*3 = i * (1 + 1) * (1 + 1 +1) =1 * 2 * 3 = 6
+        //1*2*3*4
+        //1*2*3*4*5
+        int i = 2;
+        int average = 2;
+        int cont = n;
+
+        while (cont <= n){
+            average = i * (i++);
+               i++;
+            System.out.println(n);
+        }
+
+
+//
+//     //   int sum = 2;
+////        int first = 2;
+////        int second = 6;
+////        int sum1 = getSum(i, n);
+////        // n este suma de i  , adica sum = sum +1
+////
+////        public static int getSum ( int i, int n){
+////            //while (second >= n) {
+////// factorialul lui 2 este 2
+////            // factorialul lui 3 =2*3
+//            while (i <= n) {
+//          //      sum = sum + 1;
+//                average = i * (i++);
+//                i++;
+//                //   first = i * (sum);
+//                //   second = first * (sum);
+//                //   first = second;
+//                return result;
+//            }
+//                //     while (second <= n) {
+//
+//                //      }
+//
+//
+////            first = i * (sum);
+////            second = first * (sum);
+////            first = second;
+////
+//                //     System.out.println(sum);
+//
+
+        }
+    }
