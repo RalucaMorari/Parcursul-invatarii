@@ -15,7 +15,6 @@ public class EX9ARRAYS {
             if (prices[i] > max) {
                 max = prices[i];
             }
-
         }
         System.out.println(min);
         System.out.println(max);
