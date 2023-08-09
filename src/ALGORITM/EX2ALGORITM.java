@@ -23,35 +23,38 @@ public class EX2ALGORITM {
                 " 2 - foarfece" +
                 " 3 - piatra");
         Scanner scanner = new Scanner(System.in);
+//        if(isOptionValid(scanner))
         int userOption = scanner.nextInt();
-        //    isOptionValid(userOption);
-        Random random = new Random();
-        int calculatorOption = random.nextInt(3);
-        System.out.println(calculatorOption);
+        if(isOptionValid(userOption))
+        {
+            Random random = new Random();
+            int calculatorOption = random.nextInt(3);
+            System.out.println(calculatorOption);
 
 
-        if (userOption == calculatorOption) {
-            System.out.println("remiza");
+            if (userOption == calculatorOption) {
+                System.out.println("remiza");
 
-        } else if ((userOption == 3 && calculatorOption == 2) || (userOption == 2 && calculatorOption == 1) || (userOption == 1 && calculatorOption == 3)) {
-            System.out.println("Ai castigat!");
-        } else if ((userOption == 2 && calculatorOption == 3) || (userOption == 1 && calculatorOption == 2) || (userOption == 3 && calculatorOption == 1)) {
-            System.out.println("Calculatorul a castigat.");
+            } else if ((userOption == 3 && calculatorOption == 2) || (userOption == 2 && calculatorOption == 1) || (userOption == 1 && calculatorOption == 3)) {
+                System.out.println("Ai castigat!");
+            } else if ((userOption == 2 && calculatorOption == 3) || (userOption == 1 && calculatorOption == 2) || (userOption == 3 && calculatorOption == 1)) {
+                System.out.println("Calculatorul a castigat.");
+            }
         }
 
-        while (userOption > 3 || userOption < 1) {
-            System.out.println("Introdu o alta alegere");
-            break;
-        }
-    }
-
-//    public static void isOptionValid(int userOption) {
-//        Scanner scanner = new Scanner(System.in);
-//
 //        while (userOption > 3 || userOption < 1) {
-//            userOption = scanner.nextInt();
 //            System.out.println("Introdu o alta alegere");
 //            break;
 //        }
-//    }
+    }
+
+    public static boolean isOptionValid(int userOption) {
+        //Scanner scanner = new Scanner(System.in);
+
+        if (userOption <= 3 || userOption >= 1) {
+            //userOption = scanner.nextInt();
+           return true;
+        }
+        return false;
+    }
 }
