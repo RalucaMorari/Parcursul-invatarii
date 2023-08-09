@@ -32,7 +32,7 @@ public class EX13LOOP2 {
         int playerNumber = 0;
         int numberOfTries = 0;
 
-        while (numberOfTries < 5 ){
+        while (numberOfTries < 7 ){
             playerNumber = scanner.nextInt();
             numberOfTries++;
             if(numberToGuess == playerNumber){
