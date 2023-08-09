@@ -19,9 +19,11 @@ public class EX9IF {
 
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-//        getDividid (number);
-//        System.out.println(result);
-//
+
+        getDivided(number);
+        System.out.println(getDivided(number));
+
+
 //        if ((number % 3 == 0) && (number % 5 == 0)) {
 //            System.out.println("fizzbuzz");
 //        } else if (number % 3 == 0) {
@@ -29,19 +31,20 @@ public class EX9IF {
 //        } else if (number % 5 == 0) {
 //            System.out.println("buzz");
 //        }
-
-//        public static String getDividid ( int number){
-//            if ((number % 3 == 0) && (number % 5 == 0)) {
-//                String result = "fizzbuzz";
 //
-//            } else if (number % 3 == 0) {
-//                String result = "fizz";
-//            }
-//            } else if (number % 5 == 0) {
-//            String result = "buzz";
-//        }
-//                return result;
+     }
+    public static String getDivided( int number){
+        String result = "";
+        if ((number % 3 == 0) && (number % 5 == 0)) {
+            result = "fizzbuzz";
 
-            }
+        } else if (number % 3 == 0) {
+            result = "fizz";
+
+        } else if (number % 5 == 0) {
+            result = "buzz";
         }
+        return result;
+    }
+}
 
