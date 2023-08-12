@@ -1,4 +1,4 @@
-package PRINCIPIILE.OOP.EX1;
+package PRINCIPIILE.OOP.EX1.ShapesArea;
 
 public interface Shape {
 

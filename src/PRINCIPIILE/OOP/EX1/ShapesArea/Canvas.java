@@ -1,4 +1,4 @@
-package PRINCIPIILE.OOP.EX1;
+package PRINCIPIILE.OOP.EX1.ShapesArea;
 
 public class Canvas {
     public static void main(String[] args) {

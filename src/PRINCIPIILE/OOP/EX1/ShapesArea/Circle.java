@@ -1,4 +1,4 @@
-package PRINCIPIILE.OOP.EX1;
+package PRINCIPIILE.OOP.EX1.ShapesArea;
 
 public class Circle implements Shape {
     double area = 0;

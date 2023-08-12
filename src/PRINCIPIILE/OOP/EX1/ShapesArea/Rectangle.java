@@ -1,4 +1,4 @@
-package PRINCIPIILE.OOP.EX1;
+package PRINCIPIILE.OOP.EX1.ShapesArea;
 
 public class Rectangle implements Shape {
 

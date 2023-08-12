@@ -1,4 +1,4 @@
-package PRINCIPIILE.OOP.EX2;
+package PRINCIPIILE.OOP.EX2.IntroducePersonInSchool;
 
 public class Student extends Person {
 
