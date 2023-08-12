@@ -1,6 +1,6 @@
 package PRINCIPIILE.OOP.EX6;
 
-public abstact class BankAccount {
+public abstract class BankAccount {
     private double balance;
     private String accountNumber;
 
@@ -25,11 +25,10 @@ public abstact class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    public abstract double withdraw( int amount){
-    }
+    public abstract double withdraw( int amount);
 
-    public abstact double deposit (int amount){
 
-    }
+    public abstract double deposit (int amount);
+
 
 }

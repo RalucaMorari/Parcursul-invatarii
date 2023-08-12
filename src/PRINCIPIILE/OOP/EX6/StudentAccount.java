@@ -25,7 +25,7 @@ public class StudentAccount extends BankAccount {
 
     @Override
     public double deposit(int amount) {
-        return super.deposit(amount);
+        return 0;
     }
 }
 
