@@ -1,14 +1,14 @@
-package PRINCIPIILE.OOP.EX3;
+package PRINCIPIILE.OOP.EX3.AnimalShelter;
 
 import static TEMEMETODS.Methods.getName;
 
-public class SecurityDog extends PRINCIPIILE.OOP.EX3.Dog {
+public class SecurityDog extends Dog {
     public SecurityDog (String name, int age){
         super(name, age);
     }
 
     @Override
     public void makeSound() {
-        System.out.println("Cainele " + getName() + " latra agresiv.");
+        System.out.println("Cainele " + this.getName() + " latra agresiv.");
     }
 }

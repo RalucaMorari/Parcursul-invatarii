@@ -1,22 +1,14 @@
-package PRINCIPIILE.OOP.EX3;
-
-import static TEMEMETODS.Methods.getName;
-
-public class Cat extends Animal {
-//Clasa Cat (extinde Animal)
-//Atribute: niciun atribut nou
-//
-//Metoda makeSound():
-//
-//Va afișa un mesaj ca de exemplu: “Pisica Tom face miau”
+package PRINCIPIILE.OOP.EX3.AnimalShelter;
 
 
+    public class Cat extends Animal {
     public Cat(String name, int age) {
-        super();
+        super(name, age);
     }
+
 
     @Override
     public void makeSound() {
-        System.out.println("Pisica " + getName() + " face miau.");
+        System.out.println("Pisica " + this.getName() + " face miau.");
     }
 }

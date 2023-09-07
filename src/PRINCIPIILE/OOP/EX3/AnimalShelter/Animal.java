@@ -1,6 +1,6 @@
-package PRINCIPIILE.OOP.EX3;
+package PRINCIPIILE.OOP.EX3.AnimalShelter;
 
-public class Animal {
+public abstract class Animal {
 //    name
 //age
 //Metode:
